@@ -15,12 +15,12 @@ class ChatComponent extends React.Component {
   componentDidMount() {
     const { fetchedMessage } = this.props;
 
-    axios.get("./messages.json").then((response) => {
+  //  axios.get("messages.json").then((response) => {
       //искусственная задержка
       setTimeout(()=> {
-        fetchedMessage(response.data);
+        fetchedMessage(this.props.messages);
       },1000)     
-    });
+    //  });
   }
   render() {
 

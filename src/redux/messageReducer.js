@@ -2,16 +2,16 @@ import {  SET_MESSAGE, DELETE_MESSAGE, FETCH_MESSAGE } from "./actions";
 
 const initialState = {
   messages: [
-    // {
-    //   date: new Date().toLocaleString(),
-    //   text: "как дела?",
-    //   id: 555 + Date.now().toString(),
-    // },
-    // {
-    //   date: new Date().toLocaleString(),
-    //   text: "привет!",
-    //   id: 2222 + Date.now().toString(),
-    // }
+    {
+      date: new Date().toLocaleString(),
+      text: "как дела?",
+      id: 555 + Date.now().toString(),
+    },
+    {
+      date: new Date().toLocaleString(),
+      text: "привет!",
+      id: 2222 + Date.now().toString(),
+    }
   ]
 };
 

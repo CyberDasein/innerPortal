@@ -4,7 +4,7 @@ import Questions from "./components/Questions";
 
 import ChatComponent from "./components/chat/ChatComponent";
 import AddQuestion from "./components/AddQuestion";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import About from "./components/About";
 import { QuestionTitle } from "./components/QuestionTitle";
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="container-fluid ">
+        <div className="container">
           <div className="row">
             <div className="col">
               <Menu />
