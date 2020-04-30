@@ -71,22 +71,22 @@ export default function SmileComponent(props) {
             <span role="img" data-value="&#128513;" aria-label="laugh">
               &#128513;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="joke">
+            <span role="img" data-value="&#128518;" aria-label="joke">
               &#128518;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="evil">
+            <span role="img" data-value="&#128520;" aria-label="evil">
               &#128520;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="cry">
+            <span role="img" data-value="&#128549;" aria-label="cry">
               &#128549;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="surprise">
+            <span role="img" data-value="&#128584;" aria-label="surprise">
               &#128584;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="exiting">
+            <span role="img" data-value="&#128562;" aria-label="exiting">
               &#128562;
             </span>
-            <span role="img" data-value="&#128513;" aria-label="virus">
+            <span role="img" data-value=" &#128567;" aria-label="virus">
               &#128567;
             </span>
           </div>
